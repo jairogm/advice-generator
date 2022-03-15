@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+/* Colors */
+:root {
+  /** PRIMARY **/
+  /* Light Cyan */
+  --color-1: hsl(193, 38%, 86%);
+  /* Neon Green */
+  --color-2: hsl(150, 100%, 66%);
+
+  /** NEUTRAL **/
+  /* Grayish Blue */
+  --color-3: hsl(217, 19%, 38%);
+  /* Dark Grayish Blue */
+  --color-4: hsl(217, 19%, 24%);
+  /* Dark Blue */
+  --color-5: hsl(218, 23%, 16%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: var(--color-5);
+}
+.container {
+  display: grid;
+  place-content: center;
+  height: 90vh;
+}
+
+.advice-wrapper {
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: var(--color-4);
+}
+
+.advice-title {
+  width: 100%;
+}
+.advice-title h3 {
+  color: var(--color-2);
+  font-family: "Manrope", sans-serif;
+  letter-spacing: 2px;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 450;
+  text-align: center;
+}
+
+.advice-body {
+  width: 100%;
+  margin: 10px auto;
+}
+.advice-body p {
+  text-align: center;
+  color: var(--color-1);
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+}
+.divider-line {
+  width: 100%;
+  position: relative;
+  top: 10px;
+}
+
+.advice-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 60px;
+}
+.icon-dice-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-2);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-dice-container:hover {
+  cursor: pointer;
+  filter: brightness(110%);
+  box-shadow: 0px 0px 30px 1px var(--color-2);
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 768px) {
+  .advice-wrapper {
+    width: 550px;
+  }
+  .advice-body p {
+    font-size: 28px;
+  }
+  .divider-line {
+    margin-top: 20px;
+  }
+}
