@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-Learned how to use fetch on vanilla Javascript, produ of myself here cuz I barely google naything regarding the fetch call and the DOM manipulation
+Learned how to use fetch on vanilla Javascript, I barely google nothing regarding the fetch call and the DOM manipulation
 
 ```js
 const getAdvice = () => {
@@ -68,5 +68,5 @@ Future projects will try to implement better the CSS , gotta study more about po
 
 ## Author
 
-- Website - [Jhon Jairo Garces Montes](https://www.your-site.com)
+- Website - [Jhon Jairo Garces Montes](https://jhongarces.dev)
 
